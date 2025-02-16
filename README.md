@@ -28,7 +28,7 @@ The lab also has the following learning outcomes with regards to practice and mo
 1) You may work in groups of two for this lab. If you decide to work in groups, you should briefly
    describe how the work is divided between the two team members in your README file.
 2) You can use either Python or Java for this assignment.  
-3) Use the following team naming format when you create your team on GitHub: spring24-lab1-GitHubid1-Githubid2. For example, spring24-lab1-alice-bob for a group of two. For a single group team, use spring24-lab1-alice as an example team name for a student with github id alice. If you already chose a different format for your team, edit your team name to the above format. 
+3) Use the following team naming format when you create your team on GitHub: spring25-lab1-GitHubid1-Githubid2. For example, spring24-lab1-alice-bob for a group of two. For a single group team, use spring24-lab1-alice as an example team name for a student with github id alice. If you already chose a different format for your team, edit your team name to the above format. 
 4) You should use  course 677 docker container(s) for your code development and testing. 
 5) Do's and don'ts:
    - discuss lab with other students: allowed
