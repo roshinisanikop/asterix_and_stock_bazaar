@@ -131,8 +131,7 @@ The client component should use gRPC to make lookup and trade calls to the serve
 a for loop that sequentially issues either lookup or trade request. You design should be able to
 have **multiple client processes making concurrent requests to the server,** thereby exercising the
 thread pool. Separately, implement a special client makes periodic updates to stock prices at random
-times. This client only makes updates to prices and does not make any trades. You should design new
-gRPC call(s) for this update functionality and clearly describe it in your design doc.
+times. This client only makes updates to prices and does not make any trades.  
 
 ## Part 3: Evaluation and Performance Measurement
 
