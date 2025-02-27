@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "request/LookupRequest.proto";
+import "request/TradeRequest.proto";
+import "request/UpdateRequest.proto";
+import "response/LookUpResponse.proto";
+import "response/TradeResponse.proto";
+import "response/UpdateResponse.proto";
+
+service StockTrading {
+    rpc Lookup(LookupRequest) returns (LookupResponse) {}
+    rpc Trade(TradeRequest) returns (TradeResponse) {}
+    rpc Update(UpdateRequest) returns (UpdateResponse) {}
+}

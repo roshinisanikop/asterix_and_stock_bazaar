@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message UpdateRequest {
+    string stockName = 1;
+    int64 price = 2;
+}
