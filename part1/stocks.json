@@ -1,0 +1,14 @@
+{
+    "GameStart": {
+        "price": 15.99,
+        "volume":0,
+        "max_volume": 1000,
+        "trading_suspended": false
+    },
+    "RottenFishCo": {
+        "price": 7.25,
+        "volume":0,
+        "max_volume": 1000,
+        "trading_suspended": true
+    }
+}
