@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-message LookupResponse {
-    int64 price = 1;
-    int64 volume = 2;
-}

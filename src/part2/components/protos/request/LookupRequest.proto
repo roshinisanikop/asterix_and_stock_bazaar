@@ -1,5 +1,0 @@
-syntax = "proto3";
-
-message LookupRequest {
-    string stockName = 1;
-}

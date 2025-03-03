@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+
+
+service StockTrading {
+    rpc Lookup(LookupRequest) returns (LookupResponse) {}
+    rpc Trade(TradeRequest) returns (TradeResponse) {}
+    rpc Update(UpdateRequest) returns (UpdateResponse) {}
+}
+
+
+message LookupRequest {
+    string stockName = 1;
+}
+
+message TradeRequest {
+    string stockName = 1;
+    int64 itemSize = 2;
+    string type = 3;
+}
+
+message UpdateRequest {
+    string stockName = 1;
+    float price = 2;
+}
+
+message LookupResponse {
+    float price = 1;
+    int64 volume = 2;
+}
+
+message TradeResponse {
+    int64 isSuccess = 1;
+}
+
+message UpdateResponse {
+    int64 isUpdated = 1;
+}

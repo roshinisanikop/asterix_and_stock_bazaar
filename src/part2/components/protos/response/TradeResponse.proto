@@ -1,5 +1,0 @@
-syntax = "proto3";
-
-message TradeResponse {
-    int64 isSuccess = 1;
-}
