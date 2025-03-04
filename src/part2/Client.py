@@ -3,6 +3,14 @@ import random
 import StockTrading_pb2_grpc   
 import StockTrading_pb2 
 import time
+import os
+import threading
+
+# latency_file = "latency_results.txt"
+
+# lock = threading.Lock() 
+# if os.path.exists(latency_file):
+#     open(latency_file, "w").close()
 
 # Lookup function
 def lookUp(stub,stockName):
@@ -18,7 +26,7 @@ def trade(stub, stockName, n, type):
 
 def run():
     # Stock name list
-    stockNameList = ['GameStart', 'RottenFishCo', 'BoarCo', 'MenhirCo']
+    stockNameList = ['GameStart', 'RottenFishCo', 'BoarCo', 'MenhirCo', 'InvalidStock']
     # Trade type
     tradeType = ['buy', 'sell']
 
@@ -26,7 +34,7 @@ def run():
     with grpc.insecure_channel("172.17.0.2:12949") as channel:
         stub = StockTrading_pb2_grpc.StockTradingStub(channel)
 
-        numRequests = 3
+        numRequests = 5
         totalLookupTIme = 0
         totalTradeTime = 0
 
@@ -34,9 +42,10 @@ def run():
 
             # value of toss determines whether trade function will be called or lookup
             toss = random.randint(0, 1)
+            #toss = 0
+            # toss = 1
         
             if toss == 0 :
-                # print("-----------------------------------------------------------------------")
                 startLookup = time.time()
                 stockName = random.choice(stockNameList)
                 print(f"Lookup Request for stockname {stockName}")
@@ -51,7 +60,6 @@ def run():
 
                 # print(f"Latency for Lookup: {latencyLookUp}")
             if toss == 1 :
-                # print("-----------------------------------------------------------------------")
                 startTrade = time.time()
                 stockName = random.choice(stockNameList)
                 n = random.randint(1,50)
@@ -71,11 +79,19 @@ def run():
 
                 # print(f"Latency for Trade: {latencyTrade}")
 
-        avgLatencyLookup = totalLookupTIme / numRequests
-        print(f"Avg Latency for Lookup: {avgLatencyLookup : .4f} seconds") 
+        # avgLatencyLookup = totalLookupTIme / numRequests
+        # print(f"Avg Latency for Lookup: {avgLatencyLookup : .4f} seconds") 
         avgLatencyTrade = totalTradeTime / numRequests
         print(f"Avg Latency for Trade: {avgLatencyTrade : .4f} seconds")    
 
+        # with lock:
+        #     with open(latency_file, "a") as f:
+        #         f.write(f"{avgLatencyLookup:.4f}\n")
+
+        # with lock:
+        #     with open(latency_file, "a") as f:
+        #         f.write(f"{avgLatencyTrade:.4f}\n")
+    
 
 if __name__ == "__main__":
     run()
