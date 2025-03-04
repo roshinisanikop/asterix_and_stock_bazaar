@@ -1,0 +1,200 @@
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Avg Latency for Lookup:  0.0009 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 1 clients is: 0.0009 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Lookup Request for stockname RottenFishCo
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname RottenFishCo
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname BoarCo
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Avg Latency for Lookup:  0.0009 seconds
+Avg Latency for Lookup:  0.0009 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 2 clients is: 0.0009 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Lookup Request for stockname RottenFishCo
+Lookup Request for stockname RottenFishCo
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname MenhirCo
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Avg Latency for Lookup:  0.0015 seconds
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Avg Latency for Lookup:  0.0015 seconds
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Avg Latency for Lookup:  0.0018 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 3 clients is: 0.0016 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Starting client 4........
+Lookup Request for stockname RottenFishCo
+Lookup Request for stockname MenhirCo
+Lookup Request for stockname RottenFishCo
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Avg Latency for Lookup:  0.0015 seconds
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Avg Latency for Lookup:  0.0015 seconds
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Avg Latency for Lookup:  0.0015 seconds
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Avg Latency for Lookup:  0.0016 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 4 clients is: 0.0015 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Starting client 4........
+Starting client 5........
+Lookup Request for stockname MenhirCo
+Lookup Request for stockname GameStart
+Lookup Request for stockname MenhirCo
+Lookup Request for stockname BoarCo
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname MenhirCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for MenhirCo -  Price: 70.0, Volume: 10
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname RottenFishCo
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Lookup Request for stockname BoarCo
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Avg Latency for Lookup:  0.0013 seconds
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Avg Latency for Lookup:  0.0013 seconds
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Avg Latency for Lookup:  0.0014 seconds
+Lookup Response: Lookup is successful for RottenFishCo -  Price: 50.0, Volume: 15
+Avg Latency for Lookup:  0.0014 seconds
+Lookup Response: Lookup is successful for BoarCo -  Price: 25.0, Volume: 0
+Lookup Request for stockname GameStart
+Lookup Response: Lookup is successful for GameStart -  Price: 100.0, Volume: 20
+Avg Latency for Lookup:  0.0011 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 5 clients is: 0.0013 seconds

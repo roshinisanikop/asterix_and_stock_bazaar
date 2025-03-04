@@ -1,0 +1,224 @@
+cs677-user@350278c40499:~/lab1/src/part1$ ./run_multiple_clients.sh 
+starting client 1...
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+Avg Latency for Lookup:  0.0004 seconds
+all clients have finished.
+cs677-user@350278c40499:~/lab1/src/part1$ python3 avg_latency.py 
+overall average latency across 1 clients is: 0.0004 seconds
+cs677-user@350278c40499:~/lab1/src/part1$ ./run_multiple_clients.sh 
+starting client 1...
+starting client 2...
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+Avg Latency for Lookup:  0.0007 seconds
+response: error: 'InvalidStock' - not found in catalog
+Avg Latency for Lookup:  0.0007 seconds
+all clients have finished.
+cs677-user@350278c40499:~/lab1/src/part1$ python3 avg_latency.py 
+overall average latency across 2 clients is: 0.0007 seconds
+cs677-user@350278c40499:~/lab1/src/part1$ ./run_multiple_clients.sh 
+starting client 1...
+starting client 2...
+starting client 3...
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0006 seconds
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0007 seconds
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+Avg Latency for Lookup:  0.0007 seconds
+all clients have finished.
+cs677-user@350278c40499:~/lab1/src/part1$ python3 avg_latency.py 
+overall average latency across 3 clients is: 0.0007 seconds
+cs677-user@350278c40499:~/lab1/src/part1$ ./run_multiple_clients.sh 
+starting client 1...
+starting client 2...
+starting client 3...
+starting client 4...
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0007 seconds
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0009 seconds
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0010 seconds
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0005 seconds
+all clients have finished.
+cs677-user@350278c40499:~/lab1/src/part1$ python3 avg_latency.py 
+overall average latency across 4 clients is: 0.0008 seconds
+cs677-user@350278c40499:~/lab1/src/part1$ ./run_multiple_clients.sh 
+starting client 1...
+starting client 2...
+starting client 3...
+starting client 4...
+starting client 5...
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0010 seconds
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+Avg Latency for Lookup:  0.0010 seconds
+response: error: 'InvalidStock' - not found in catalog
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0011 seconds
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0012 seconds
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+Avg Latency for Lookup:  0.0010 seconds
+all clients have finished.
+cs677-user@350278c40499:~/lab1/src/part1$ python3 avg_latency.py 
+overall average latency across 5 clients is: 0.0011 seconds
+cs677-user@350278c40499:~/lab1/src/part1$ ./run_multiple_clients.sh 
+starting client 1...
+starting client 2...
+starting client 3...
+starting client 4...
+starting client 5...
+starting client 6...
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+Avg Latency for Lookup:  0.0014 seconds
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0015 seconds
+response: GameStart: price=50, volume=20, maxVolume=100
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+response: error: 'InvalidStock' - not found in catalog
+Avg Latency for Lookup:  0.0014 seconds
+response: error: 'InvalidStock' - not found in catalog
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0015 seconds
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0017 seconds
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0012 seconds
+all clients have finished.
+cs677-user@350278c40499:~/lab1/src/part1$ python3 avg_latency.py 
+overall average latency across 6 clients is: 0.0014 seconds
+cs677-user@350278c40499:~/lab1/src/part1$ ./run_multiple_clients.sh 
+starting client 1...
+starting client 2...
+starting client 3...
+starting client 4...
+starting client 5...
+starting client 6...
+starting client 7...
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0013 seconds
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0013 seconds
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0014 seconds
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+Avg Latency for Lookup:  0.0014 seconds
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0014 seconds
+response: GameStart: price=50, volume=20, maxVolume=100
+response: RottenFishCo: price=50, volume=15, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+response: GameStart: price=50, volume=20, maxVolume=100
+Avg Latency for Lookup:  0.0015 seconds
+Avg Latency for Lookup:  0.0011 seconds
+all clients have finished.
+cs677-user@350278c40499:~/lab1/src/part1$ python3 avg_latency.py 
+overall average latency across 7 clients is: 0.0013 seconds

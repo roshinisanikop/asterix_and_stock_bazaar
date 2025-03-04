@@ -1,5 +1,4 @@
 clientSize=5
-
 for ((i=1; i<=clientSize; i++))
 do
     echo "Starting client $i........"

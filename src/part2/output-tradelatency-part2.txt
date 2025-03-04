@@ -1,0 +1,203 @@
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Trade Request for stockname BoarCo, number of items 44 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname BoarCo, number of items 12 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname MenhirCo, number of items 45 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname RottenFishCo, number of items 37 and trade type buy
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname GameStart, number of items 7 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Avg Latency for Trade:  0.0007 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 1 clients is: 0.0007 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Trade Request for stockname GameStart, number of items 32 and trade type sell
+Trade Request for stockname MenhirCo, number of items 39 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname MenhirCo, number of items 47 and trade type buy
+Trade Request for stockname RottenFishCo, number of items 46 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname BoarCo, number of items 31 and trade type buy
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname GameStart, number of items 2 and trade type buy
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname MenhirCo, number of items 45 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname RottenFishCo, number of items 15 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname RottenFishCo, number of items 19 and trade type buy
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname BoarCo, number of items 29 and trade type buy
+Trade Response: Trade is suspended for BoarCo
+Avg Latency for Trade:  0.0007 seconds
+Trade Response: Trade is suspended for RottenFishCo
+Avg Latency for Trade:  0.0008 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 2 clients is: 0.0008 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Trade Request for stockname RottenFishCo, number of items 11 and trade type sell
+Trade Request for stockname BoarCo, number of items 16 and trade type buy
+Trade Request for stockname MenhirCo, number of items 19 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname GameStart, number of items 31 and trade type buy
+Trade Request for stockname RottenFishCo, number of items 13 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname RottenFishCo, number of items 36 and trade type sell
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname BoarCo, number of items 50 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname RottenFishCo, number of items 7 and trade type buy
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname GameStart, number of items 14 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname BoarCo, number of items 44 and trade type buy
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname GameStart, number of items 18 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname MenhirCo, number of items 24 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname GameStart, number of items 15 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname MenhirCo, number of items 40 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Avg Latency for Trade:  0.0008 seconds
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname BoarCo, number of items 7 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Avg Latency for Trade:  0.0009 seconds
+Trade Response: Trade is suspended for BoarCo
+Avg Latency for Trade:  0.0009 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 3 clients is: 0.0009 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ 
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 3 clients is: 0.0009 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Starting client 4........
+Trade Request for stockname GameStart, number of items 20 and trade type buy
+Trade Request for stockname BoarCo, number of items 23 and trade type buy
+Trade Request for stockname BoarCo, number of items 2 and trade type buy
+Trade Request for stockname RottenFishCo, number of items 20 and trade type sell
+Trade Response: Trade is suspended for RottenFishCo
+Trade Response: Trade is suspended for BoarCo
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname GameStart, number of items 46 and trade type buy
+Trade Request for stockname RottenFishCo, number of items 22 and trade type buy
+Trade Request for stockname MenhirCo, number of items 35 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname MenhirCo, number of items 6 and trade type buy
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname BoarCo, number of items 16 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname GameStart, number of items 49 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname GameStart, number of items 42 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname GameStart, number of items 13 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname MenhirCo, number of items 47 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname GameStart, number of items 24 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname GameStart, number of items 48 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname MenhirCo, number of items 37 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname RottenFishCo, number of items 3 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname MenhirCo, number of items 37 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname BoarCo, number of items 33 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname MenhirCo, number of items 45 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Avg Latency for Trade:  0.0007 seconds
+Trade Response: Trade is successful for RottenFishCo - buy 3 stocks!
+Avg Latency for Trade:  0.0010 seconds
+Trade Response: Trade is suspended for BoarCo
+Avg Latency for Trade:  0.0010 seconds
+Trade Response: Trade is suspended for MenhirCo
+Avg Latency for Trade:  0.0010 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 4 clients is: 0.0009 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Starting client 4........
+Starting client 5........
+Trade Request for stockname GameStart, number of items 44 and trade type sell
+Trade Request for stockname BoarCo, number of items 50 and trade type buy
+Trade Request for stockname GameStart, number of items 42 and trade type buy
+Trade Request for stockname MenhirCo, number of items 21 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname MenhirCo, number of items 1 and trade type sell
+Trade Request for stockname GameStart, number of items 1 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname BoarCo, number of items 32 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname RottenFishCo, number of items 12 and trade type sell
+Trade Response: Trade is successful for MenhirCo - sell 1 stocks!
+Trade Request for stockname MenhirCo, number of items 31 and trade type sell
+Trade Request for stockname BoarCo, number of items 17 and trade type buy
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname MenhirCo, number of items 16 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname MenhirCo, number of items 6 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname GameStart, number of items 3 and trade type sell
+Trade Response: Trade is suspended for RottenFishCo
+Trade Request for stockname BoarCo, number of items 2 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname MenhirCo, number of items 36 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname GameStart, number of items 33 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname BoarCo, number of items 43 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname BoarCo, number of items 17 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname GameStart, number of items 49 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname GameStart, number of items 38 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname RottenFishCo, number of items 19 and trade type sell
+Trade Response: Trade is suspended for BoarCo
+Avg Latency for Trade:  0.0012 seconds
+Trade Response: Trade is suspended for BoarCo
+Trade Request for stockname BoarCo, number of items 7 and trade type buy
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname GameStart, number of items 33 and trade type sell
+Trade Response: Trade is suspended for GameStart
+Avg Latency for Trade:  0.0010 seconds
+Trade Response: Trade is suspended for RottenFishCo
+Avg Latency for Trade:  0.0014 seconds
+Trade Response: Trade is suspended for BoarCo
+Avg Latency for Trade:  0.0011 seconds
+Trade Response: Trade is suspended for GameStart
+Trade Request for stockname MenhirCo, number of items 31 and trade type buy
+Trade Response: Trade is suspended for MenhirCo
+Trade Request for stockname MenhirCo, number of items 42 and trade type sell
+Trade Response: Trade is suspended for MenhirCo
+Avg Latency for Trade:  0.0010 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 5 clients is: 0.0011 seconds

@@ -34,7 +34,7 @@ class StockTradingServicer(StockTrading_pb2_grpc.StockTradingServicer):
 # Starting GRPC Server 
 def serve():
     # set max worker threads to 10
-    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10)) 
+    server = grpc.server(futures.ThreadPoolExecutor(max_workers=5)) 
     StockTrading_pb2_grpc.add_StockTradingServicer_to_server(
         StockTradingServicer(), server
     )

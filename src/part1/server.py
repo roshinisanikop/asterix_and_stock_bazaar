@@ -4,13 +4,13 @@ from threadpool import ThreadPool
 # from stock_catalog import StockCatalog # supports json file operations
 from Catalog import Catalog # integration 
 
-t_pool = ThreadPool(10)
+t_pool = ThreadPool(5)
 
 
 stock_catalog = Catalog()
 def client_requests(clientSocket):
     try:
-        stock_name = clientSocket.recv(1024).decode('utf-8').strip()  # read stock name directly
+        stock_name = clientSocket.recv(1024).decode('utf-8').strip()  # reads stock name directly
 
         if not stock_name:
             return 

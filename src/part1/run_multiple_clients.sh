@@ -1,6 +1,6 @@
 #!/bin/bash
 
-numClients=5  #number of clients to be run
+numClients=5 #number of clients to be run
 
 for ((i=1; i<=numClients; i++)) #mutiple clients run 
 do

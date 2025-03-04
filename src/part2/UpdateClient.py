@@ -3,8 +3,17 @@ import random
 import time
 import StockTrading_pb2_grpc   
 import StockTrading_pb2 
+import os
+import threading
 
-# Update function
+
+# # Update function
+# latency_file = "latency_results.txt"
+
+# lock = threading.Lock() 
+# if os.path.exists(latency_file):
+#     open(latency_file, "w").close()
+
 def update(stub,stockName, price):
     req = StockTrading_pb2.UpdateRequest(stockName = stockName, price = price)
     res = stub.Update(req)
@@ -13,13 +22,13 @@ def update(stub,stockName, price):
 
 def run():
     # Stock name list
-    stockNameList = ['GameStart', 'RottenFishCo', 'BoarCo', 'MenhirCo']
+    stockNameList = ['GameStart', 'RottenFishCo', 'BoarCo', 'MenhirCo', 'InvalidStock']
 
     # Connect to server ip
     with grpc.insecure_channel("172.17.0.2:12949") as channel:
         stub = StockTrading_pb2_grpc.StockTradingStub(channel)
 
-        numUpdates = 3
+        numUpdates = 5
         totalUpdateTime = 0
 
         for i in range(numUpdates):
@@ -41,11 +50,16 @@ def run():
                 print(f"Update Response: {price} is an invalid!")
             
             # print(f"Latency for Update: {latencyUpdate}")
-            avgLatencyUpdate = totalUpdateTime / numUpdates
-            print(f"Avg Latency for Update: {avgLatencyUpdate : .4f} seconds") 
-
             # Sleep - for periodic updates to the stock prices
             time.sleep(random.randint(1,5))
+            
+        avgLatencyUpdate = totalUpdateTime / numUpdates
+        print(f"Avg Latency for Update: {avgLatencyUpdate : .4f} seconds") 
+        # with lock:
+        #     with open(latency_file, "a") as f:
+        #         f.write(f"{avgLatencyUpdate:.4f}\n")
+
+            
 
 
 if __name__ == "__main__":

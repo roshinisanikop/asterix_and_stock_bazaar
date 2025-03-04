@@ -1,0 +1,200 @@
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Update Request for stockname GameStart, price 353
+Update Response: Catalog price update is successful for GameStart. New price is 353! 
+Update Request for stockname RottenFishCo, price 297
+Update Response: Catalog price update is successful for RottenFishCo. New price is 297! 
+Update Request for stockname MenhirCo, price 189
+Update Response: Catalog price update is successful for MenhirCo. New price is 189! 
+Update Request for stockname RottenFishCo, price 63
+Update Response: Catalog price update is successful for RottenFishCo. New price is 63! 
+Update Request for stockname GameStart, price 134
+Update Response: Catalog price update is successful for GameStart. New price is 134! 
+Avg Latency for Update:  0.0007 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 1 clients is: 0.0007 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Update Request for stockname RottenFishCo, price 46
+Update Request for stockname GameStart, price 90
+Update Response: Catalog price update is successful for GameStart. New price is 90! 
+Update Response: Catalog price update is successful for RottenFishCo. New price is 46! 
+Update Request for stockname BoarCo, price 37
+Update Request for stockname MenhirCo, price 32
+Update Response: Catalog price update is successful for MenhirCo. New price is 32! 
+Update Request for stockname GameStart, price 146
+Update Response: Catalog price update is successful for BoarCo. New price is 37! 
+Update Request for stockname BoarCo, price 214
+Update Response: Catalog price update is successful for GameStart. New price is 146! 
+Update Request for stockname GameStart, price 330
+Update Response: Catalog price update is successful for BoarCo. New price is 214! 
+Update Request for stockname RottenFishCo, price 242
+Update Response: Catalog price update is successful for GameStart. New price is 330! 
+Update Request for stockname RottenFishCo, price 262
+Update Response: Catalog price update is successful for RottenFishCo. New price is 242! 
+Update Request for stockname RottenFishCo, price 12
+Update Response: Catalog price update is successful for RottenFishCo. New price is 262! 
+Avg Latency for Update:  0.0009 seconds
+Update Response: Catalog price update is successful for RottenFishCo. New price is 12! 
+Avg Latency for Update:  0.0009 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 2 clients is: 0.0009 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Update Request for stockname GameStart, price 121
+Update Request for stockname BoarCo, price 345
+Update Request for stockname RottenFishCo, price 301
+Update Response: Catalog price update is successful for GameStart. New price is 121! 
+Update Response: Catalog price update is successful for RottenFishCo. New price is 301! 
+Update Request for stockname BoarCo, price 80
+Update Request for stockname GameStart, price 64
+Update Response: Catalog price update is successful for BoarCo. New price is 345! 
+Update Request for stockname BoarCo, price 42
+Update Response: Catalog price update is successful for GameStart. New price is 64! 
+Update Request for stockname MenhirCo, price 140
+Update Response: Catalog price update is successful for BoarCo. New price is 80! 
+Update Request for stockname BoarCo, price 479
+Update Response: Catalog price update is successful for BoarCo. New price is 42! 
+Update Request for stockname GameStart, price 232
+Update Response: Catalog price update is successful for MenhirCo. New price is 140! 
+Update Request for stockname GameStart, price 238
+Update Response: Catalog price update is successful for BoarCo. New price is 479! 
+Update Request for stockname BoarCo, price 61
+Update Response: Catalog price update is successful for GameStart. New price is 232! 
+Update Request for stockname RottenFishCo, price 447
+Update Response: Catalog price update is successful for GameStart. New price is 238! 
+Update Request for stockname BoarCo, price 429
+Update Response: Catalog price update is successful for BoarCo. New price is 61! 
+Update Request for stockname BoarCo, price 166
+Update Response: Catalog price update is successful for BoarCo. New price is 429! 
+Avg Latency for Update:  0.0011 seconds
+Update Response: Catalog price update is successful for BoarCo. New price is 166! 
+Avg Latency for Update:  0.0011 seconds
+Update Response: Catalog price update is successful for RottenFishCo. New price is 447! 
+Update Request for stockname MenhirCo, price 238
+Update Response: Catalog price update is successful for MenhirCo. New price is 238! 
+Avg Latency for Update:  0.0012 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 3 clients is: 0.0011 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Starting client 4........
+Update Request for stockname RottenFishCo, price 374
+Update Request for stockname MenhirCo, price 436
+Update Request for stockname BoarCo, price 414
+Update Request for stockname MenhirCo, price 481
+Update Response: Catalog price update is successful for BoarCo. New price is 414! 
+Update Request for stockname GameStart, price 54
+Update Response: Catalog price update is successful for MenhirCo. New price is 436! 
+Update Request for stockname MenhirCo, price 200
+Update Response: Catalog price update is successful for MenhirCo. New price is 481! 
+Update Request for stockname MenhirCo, price 360
+Update Response: Catalog price update is successful for RottenFishCo. New price is 374! 
+Update Request for stockname BoarCo, price 493
+Update Response: Catalog price update is successful for GameStart. New price is 54! 
+Update Request for stockname MenhirCo, price 297
+Update Response: Catalog price update is successful for MenhirCo. New price is 200! 
+Update Response: Catalog price update is successful for BoarCo. New price is 493! 
+Update Request for stockname RottenFishCo, price 268
+Update Request for stockname MenhirCo, price 139
+Update Response: Catalog price update is successful for MenhirCo. New price is 360! 
+Update Request for stockname MenhirCo, price 153
+Update Response: Catalog price update is successful for RottenFishCo. New price is 268! 
+Update Request for stockname GameStart, price 153
+Update Response: Catalog price update is successful for MenhirCo. New price is 297! 
+Update Request for stockname GameStart, price 354
+Update Response: Catalog price update is successful for MenhirCo. New price is 139! 
+Update Request for stockname RottenFishCo, price 500
+Update Response: Catalog price update is successful for MenhirCo. New price is 153! 
+Update Request for stockname BoarCo, price 299
+Update Response: Catalog price update is successful for GameStart. New price is 153! 
+Update Request for stockname GameStart, price 264
+Update Response: Catalog price update is successful for GameStart. New price is 354! 
+Update Request for stockname GameStart, price 172
+Update Response: Catalog price update is successful for RottenFishCo. New price is 500! 
+Update Request for stockname BoarCo, price 248
+Update Response: Catalog price update is successful for GameStart. New price is 264! 
+Avg Latency for Update:  0.0014 seconds
+Update Response: Catalog price update is successful for BoarCo. New price is 299! 
+Update Request for stockname GameStart, price 5
+Update Response: Catalog price update is successful for GameStart. New price is 172! 
+Avg Latency for Update:  0.0014 seconds
+Update Response: Catalog price update is successful for BoarCo. New price is 248! 
+Avg Latency for Update:  0.0015 seconds
+Update Response: Catalog price update is successful for GameStart. New price is 5! 
+Avg Latency for Update:  0.0012 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 4 clients is: 0.0014 seconds
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
+Starting client 1........
+Starting client 2........
+Starting client 3........
+Starting client 4........
+Starting client 5........
+Update Request for stockname BoarCo, price 431
+Update Request for stockname RottenFishCo, price 290
+Update Request for stockname MenhirCo, price 120
+Update Request for stockname BoarCo, price 286
+Update Request for stockname RottenFishCo, price 346
+Update Response: Catalog price update is successful for MenhirCo. New price is 120! 
+Update Response: Catalog price update is successful for RottenFishCo. New price is 290! 
+Update Request for stockname BoarCo, price 343
+Update Request for stockname GameStart, price 139
+Update Response: Catalog price update is successful for RottenFishCo. New price is 346! 
+Update Request for stockname RottenFishCo, price 124
+Update Response: Catalog price update is successful for BoarCo. New price is 286! 
+Update Request for stockname RottenFishCo, price 26
+Update Response: Catalog price update is successful for GameStart. New price is 139! 
+Update Request for stockname GameStart, price 8
+Update Response: Catalog price update is successful for BoarCo. New price is 431! 
+Update Request for stockname BoarCo, price 292
+Update Response: Catalog price update is successful for RottenFishCo. New price is 26! 
+Update Request for stockname RottenFishCo, price 493
+Update Response: Catalog price update is successful for BoarCo. New price is 343! 
+Update Request for stockname GameStart, price 159
+Update Response: Catalog price update is successful for RottenFishCo. New price is 124! 
+Update Request for stockname BoarCo, price 155
+Update Response: Catalog price update is successful for BoarCo. New price is 292! 
+Update Request for stockname MenhirCo, price 2
+Update Response: Catalog price update is successful for GameStart. New price is 8! 
+Update Request for stockname MenhirCo, price 438
+Update Response: Catalog price update is successful for RottenFishCo. New price is 493! 
+Update Request for stockname GameStart, price 395
+Update Response: Catalog price update is successful for GameStart. New price is 159! 
+Update Request for stockname MenhirCo, price 254
+Update Response: Catalog price update is successful for BoarCo. New price is 155! 
+Update Request for stockname BoarCo, price 175
+Update Response: Catalog price update is successful for MenhirCo. New price is 2! 
+Update Request for stockname RottenFishCo, price 305
+Update Response: Catalog price update is successful for MenhirCo. New price is 438! 
+Update Request for stockname GameStart, price 431
+Update Response: Catalog price update is successful for GameStart. New price is 395! 
+Update Request for stockname BoarCo, price 281
+Update Response: Catalog price update is successful for RottenFishCo. New price is 305! 
+Update Request for stockname RottenFishCo, price 455
+Update Response: Catalog price update is successful for BoarCo. New price is 175! 
+Update Request for stockname GameStart, price 88
+Update Response: Catalog price update is successful for MenhirCo. New price is 254! 
+Update Request for stockname RottenFishCo, price 221
+Update Response: Catalog price update is successful for BoarCo. New price is 281! 
+Avg Latency for Update:  0.0015 seconds
+Update Response: Catalog price update is successful for GameStart. New price is 431! 
+Avg Latency for Update:  0.0015 seconds
+Update Response: Catalog price update is successful for RottenFishCo. New price is 455! 
+Avg Latency for Update:  0.0016 seconds
+Update Response: Catalog price update is successful for GameStart. New price is 88! 
+Avg Latency for Update:  0.0016 seconds
+Update Response: Catalog price update is successful for RottenFishCo. New price is 221! 
+Avg Latency for Update:  0.0016 seconds
+All clients have finished.
+(.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
+overall average latency across 5 clients is: 0.0016 seconds
