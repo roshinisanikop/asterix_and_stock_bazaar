@@ -1,3 +1,5 @@
+Output after running Trade Multiple times : 
+
 (.venv) cs677-user@350278c40499:~/lab1/src/part2$ ./runClients.sh 
 Starting client 1........
 Trade Request for stockname BoarCo, number of items 44 and trade type sell
@@ -201,3 +203,10 @@ Avg Latency for Trade:  0.0010 seconds
 All clients have finished.
 (.venv) cs677-user@350278c40499:~/lab1/src/part2$ python3 avg_latency.py 
 overall average latency across 5 clients is: 0.0011 seconds
+
+Error Response:
+Trade Request for stockname InvalidStock, number of items 200 and trade type sell
+Trade Response: InvalidStock is an invalid stock!
+
+Trade Request for stockname InvalidStock, number of items 40 and trade type sell
+Trade Response: InvalidStock is an invalid stock!

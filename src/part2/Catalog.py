@@ -38,6 +38,7 @@ class Catalog:
             if stockName not in self.catalog:
                 price = -1
                 volume = 0
+                return price, volume
 
             price = self.catalog[stockName]['price']
             volume = self.catalog[stockName]['volume']
