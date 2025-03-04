@@ -1,0 +1,12 @@
+{
+    "GameStart": {
+        "price": 15.99,
+        "volume": 0,
+        "maxVolume": 1000
+    },
+    "RottenFishCo": {
+        "price": 7.25,
+        "volume": 0,
+        "maxVolume": 1000
+    }
+}
