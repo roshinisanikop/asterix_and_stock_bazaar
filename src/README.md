@@ -1,6 +1,6 @@
 # Instructions on how to run Lab 1
 
-This lab has been written and implemented by Isha Nilesh Gohel and Roshini Sanikop. Part-1 was implemnted my Roshini Sanikop. part-2 was implemented by Isha Nilesh Gohel. Part-3 was done by both together.
+This lab has been written and implemented by Isha Nilesh Gohel and Roshini Sanikop. Part-1 was implemented by Roshini Sanikop. part-2 was implemented by Isha Nilesh Gohel. Part-3 was done by both together.
 ## Run Part 1
 Start a docker container using this command. Let that docker container act as the server.
 ```
